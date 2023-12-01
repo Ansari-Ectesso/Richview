@@ -1,0 +1,243 @@
+/* media queries */
+
+/* header */
+
+@media (max-width: 1280px){
+    .logo-section img{
+        width: 250px;
+    }
+
+    .head_phone_icon{
+        width: 22px;
+    }
+
+    .nav_contact p{
+        color: #fff;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1150px){
+    ._nav{
+        padding-left: 150px;
+    }
+}
+
+@media (max-width: 1036px){
+    .logo-section{
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-section img{
+        width: 210px;
+    }
+
+    ._nav{
+        padding-left: 100px;
+    }
+
+}
+
+@media (max-width: 860px){
+    ._nav{
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 750px){
+    .logo-section img{
+        width: 150px;
+    }
+
+    .nav_contact p{
+        color: #fff;
+        font-size: 18px;
+    }
+
+    .head_phone_icon{
+        width: 18px;
+    }
+
+    .nav_contact_btn{
+        width: 100px !important;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 575px){
+    ._nav{
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 530px){
+
+    .logo-section{
+        align-items: start;
+        padding-top: 18px;
+    }
+    .nav_contact{
+        flex-direction: column;
+        align-items: flex-end !important;
+        padding-right: 10px;
+    }
+
+    .nav_contact_btn{
+        width: 150px !important;
+    }
+}
+
+@media (max-width: 475px){
+    .nav_contact p{
+        font-size: 16px;
+    }
+
+    .nav_contact_btn{
+        width: 120px !important;
+    }
+}
+
+/* top container */
+@media (max-width: 1440px){
+    .top-container h1{
+        width: 65%;
+        font-size: 55px;
+    }
+
+    .top-container p{
+        font-size: 25px;
+        width: 35%;
+    }
+}
+
+@media (max-width: 1348px){
+    .top-container h1{
+        width: 70%;
+    }
+
+    .top-container p{
+        width: 40%;
+    }
+}
+
+@media (max-width: 1270px){
+    .top-container h1{
+        width: 75%;
+    }
+
+    .top-container p{
+        width: 45%;
+    }
+}
+
+@media (max-width: 1182px){
+    .top-container h1{
+        font-size: 45px;
+    }
+    
+    .top-container p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1000px){
+    .top-container{
+        padding-left: 5rem;
+    }
+}
+
+@media (max-width: 920px){
+    .top-container h1{
+        font-size: 36px;
+    }
+    
+    .top-container p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 750px){
+    .top-container{
+        padding-top: 5rem;
+        padding-left: 3rem;
+    }
+
+    .top-container h1{
+        font-size: 40px;
+        width: 80%;
+        line-height: 70px;
+    }
+    
+    .top-container p{
+        font-size: 18px;
+        width: 50%;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 640px){
+    .top-container h1{
+        font-size: 35px;
+        line-height: 65px;
+    }
+    
+    .top-container p{
+        font-size: 15px;
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 560px){
+    .top-container h1{
+        font-size: 38px;
+        width: 95%;
+    }
+    
+    .top-container p{
+        font-size: 18px;
+        width: 70%;
+    }
+}
+
+@media (max-width: 530px){
+    .top-container{
+        padding-top: 3rem;
+    }
+}
+
+@media (max-width: 500px){
+    .top-container{
+        padding-left: 2rem;
+    }
+
+    .top-container h1{
+        font-size: 30px;
+    }
+    
+    .top-container p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 410px){
+    .top-container h1{
+        line-height: 50px;
+    }
+
+    .top-container button{
+        margin-top: 35px;
+    }
+}
+
+@media (max-width: 400px){
+    .top-container h1{
+        font-size: 28px;
+    }
+
+    .top-container p{
+        font-size: 14px;
+    }
+}
+
+/* about section */

@@ -136,6 +136,7 @@ header{
 
 .about-vector-section{
     padding-top: 12rem;
+    overflow-x: hidden;
 }
 
 .about-vector{
