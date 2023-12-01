@@ -1,0 +1,213 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+/* header */
+header{
+    background-image: url('../Images/top_bg.png');
+    height: 100vh;
+    background-size: cover;
+}
+
+/* nav */
+
+._nav {
+    padding-left: 200px;
+    background: rgba(0, 0, 0, 0.2);
+    border-bottom: rgba(255, 255, 255, 0.5) solid 1px;
+}
+
+.logo-section img{
+    width: 300px;
+}
+
+.nav_contact{
+    width: 500px;
+}
+
+.nav_contact p{
+    color: #fff;
+    font-size: 25px;
+}
+ 
+.nav_contact button{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    border: solid #fff 1px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/* top container */
+.top-container{
+    color: #fff;
+    padding-top: 10rem;
+    padding-left: 10rem;
+}
+
+.top-container h1{
+    width: 60%;
+    font-size: 55px;
+}
+
+.top-container p{
+    font-size: 25px;
+    width: 32%;
+}
+
+.top-container button{
+    padding: 8px;
+    background-color: #07223e;
+    color: #fff;
+    border: solid #fff 1px;
+}
+
+/* about section */
+#about{
+    background-color: #07223e;
+    height: auto;
+}
+
+.about-content{
+    padding-left: 10rem;
+    margin-top: -70px;
+}
+
+.about-bg-txt{
+    color: #0c2642;
+    font-size: 130px;
+}
+
+.about-txt p{
+    color: #fff;
+}
+
+.about-txt p{
+    font-size: 16px;
+    font-weight: 300;
+    width: 450px;
+}
+
+.about-txt button{
+    padding: 8px;
+    background-color: #07223e;
+    color: #fff;
+    border: solid #fff 1px;
+}
+
+.about-img img{
+    width: 550px;
+    margin-top: -30px;
+}
+
+.curved-txt{
+    width: 280px;
+    position: absolute;
+    top: 20%;
+    right: -10.1%;
+}
+
+#about_bottom{
+    background-image: url('../Images/about_bottom_bg.png');
+    background-size: 100% 100%;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+}
+
+.about_workers{
+    width: 700px;
+}
+
+.about-vector-section{
+    padding-top: 12rem;
+}
+
+.about-vector{
+    width: 150px;
+    position: absolute;
+}
+
+.vector-txt{
+    color: #fff;
+    font-size: 70px;
+    font-family: 'Univia Pro';
+    font-weight: bold;
+    margin-top: 40px;
+    padding-left: 20px;
+}
+
+/* focus section */
+
+.focus-content{
+    position: absolute;
+    top: 8rem;
+    left: 7rem;
+}
+
+.focus-txt-container{
+    padding-top: 5rem;
+}
+
+.focus-bg-txt{
+    font-size: 135px;
+    font-family: 'Univia Pro';
+    color: #f3f4f5;
+}
+
+.focus-title{
+    font-size: 36px;
+}
+
+.focus-img-container img{
+    width: 250px;
+}
+
+.img-with-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    margin: 10px;
+}
+
+.img-container {
+    position: relative;
+    display: inline-block;
+}
+
+.img-text {
+    position: absolute;
+    top: 12rem;
+    left: 10px;
+    color: white;
+}
+
+.focus-img-txt-head{
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 8px;
+}
+
+.focus-img-txt-content{
+    font-weight: 300;
+    font-size: 13px;
+    padding: 0 8px;
+}
+
+/* strategy section */
+#strategy{
+    background-image: url('../Images/strategy_bg.png');
+    margin-top: 25rem;
+    height: 70vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
