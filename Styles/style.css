@@ -1,5 +1,5 @@
 /* google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
 
 *{
     margin: 0;
@@ -98,7 +98,7 @@ header{
     width: 450px;
 }
 
-.about-txt button{
+.about-txt button, .strategy-txt-container button{
     padding: 8px;
     background-color: #07223e;
     color: #fff;
@@ -211,3 +211,189 @@ header{
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
+
+.strategy-img-container{
+    padding-left: 18rem;
+    padding-top: 2rem;
+}
+
+.strategy-img-container img{
+    width: 450px;
+}
+
+.strategy-txt-container{
+    color: #fff;
+    padding-right: 18rem;
+    padding-top: 5rem;
+}
+
+.strategy-txt-container h2{
+    font-family: 'Univia Pro';
+    font-weight: 300;
+}
+
+.strategy-txt-container p{
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+/* investment section */
+
+#investment{
+    padding: 8rem 0;
+}
+
+.investment-txt{
+    padding-left: 15rem;
+}
+
+.investment-dark-box{
+    background-color: #07223e;
+    color: #fff;
+    padding: 8px;
+}
+
+.invest-box-dark-title{
+    font-weight: bold;
+}
+
+.investment-box{
+    background-color: #fafafb;
+    padding: 8px;
+}
+
+.invest-box-title{
+    font-weight: bold;
+    color: #07223e;
+}
+
+.invest-box-sub{
+    color: #07223e;
+}
+
+.invest-box-dark-sub, .invest-box-sub{
+    font-size: 14px;
+}
+
+.investment-box{
+    border-left: #83919f solid 3px;
+    border-bottom: #edeff1 solid 1px;
+}
+
+.investment-img img{
+    width: 450px;
+}
+
+.strategy-bg-txt{
+    font-size: 132px;
+    font-family: 'Univia Pro';
+    color: #f3f4f5;
+    position: absolute;
+    bottom: 4rem;
+    z-index: -1;
+}
+
+/* footer section */
+
+/* contact us section */
+.contact-us-section{
+    background-image: url('../Images/contact-us-bg.png');
+    background-size: 100% 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    padding-top: 7rem;
+}
+
+.contact-txt{
+    color: #fff;
+    padding-left: 10rem;
+}
+
+.form-sect-1, .form-sect-2{
+    width: 35%;
+}
+
+.form-sect-1 input{
+    width: 100%;
+}
+
+.form-sect-1 button{
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    background-color: transparent;
+    border: solid #fff 1px;
+}
+
+.form-sect-2 input, .form-sect-2 textarea{
+    width: 100%;
+}
+
+.form-sect-1 input, .form-sect-2 input{
+    height: 60px;
+    background-color: #1a334d;
+    border: none;
+    padding-left: 15px;
+}
+
+.form-sect-2 textarea{
+    background-color: #1a334d;
+    border: none;
+    padding-left: 15px;
+    padding-top: 8px;
+}
+
+/* placeholer */
+.form-sect-1 input[type="text"]::placeholder,
+    .form-sect-2 input[type="text"]::placeholder,
+    .form-sect-2 textarea::placeholder {
+        color: #ffffff;
+        opacity: 0.5;
+        font-weight: 200;
+    }
+
+/* contact bottom section */
+
+.contact-bottom{
+    background-image: url('../Images/contact-bottom-section.png');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-bottom-inner{
+    background-color: #07223e;
+    width: 70%;
+    height: auto;
+    padding: 4rem 3rem;
+}
+
+.contact-bottom-txt p{
+    color: #fff;
+    font-size: 26px;
+}
+
+.contact-bottom-txt button{
+    padding: 8px;
+    background-color: #07223e;
+    color: #fff;
+    border: solid #fff 1px;
+}
+
+.contact-bottom-img img {
+    width: 280px;
+    animation: rotateAnimation 15s linear infinite;
+}
+
+@keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
