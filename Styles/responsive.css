@@ -743,5 +743,71 @@
 }
 
 @media (max-width: 991px){
-    
+    .investment-img{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 580px){
+    .investment-img img{
+        width: 380px;
+    }
+}
+
+@media (max-width: 440px){
+    .investment-img img{
+        width: 330px;
+    }
+}
+
+@media (max-width: 390px){
+    .investment-img img{
+        width: 280px;
+    }
+}
+
+/* investment bg text */
+@media (max-width: 1518px){
+    .investment-bg-txt{
+        font-size: 120px;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1378px){
+    .investment-bg-txt{
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 1150px){
+    .investment-bg-txt{
+        font-size: 75px;
+    }
+}
+
+@media (max-width: 862px){
+    .investment-bg-txt{
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 690px){
+    .investment-bg-txt{
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 518px){
+    .investment-bg-txt{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 410px){
+    .investment-bg-txt{
+        font-size: 25px;
+    }
 }
