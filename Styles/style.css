@@ -308,6 +308,11 @@ header{
 /* footer section */
 
 /* contact us section */
+
+.contact-us-parent{
+    width: 100%;
+}
+
 .contact-us-section{
     background-image: url('../Images/contact-us-bg.png');
     background-size: 100% 100%;

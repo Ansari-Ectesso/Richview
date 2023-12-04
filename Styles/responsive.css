@@ -247,6 +247,12 @@
     }
 }
 
+@media (max-width: 1350px){
+    .curved-txt{
+        display: none;
+    }
+}
+
 @media (max-width: 1330px){
     .about_workers{
         width: 600px;
@@ -810,4 +816,207 @@
     .investment-bg-txt{
         font-size: 25px;
     }
+}
+
+/* footer section */
+
+/* contact us section */
+@media (max-width: 1172px){
+    .contact-txt{
+        padding-left: 8rem;
+    }
+}
+
+@media (max-width: 1080px){
+    .contact-txt{
+        padding-left: 5rem;
+    }
+}
+
+@media (max-width: 1080px){
+    .contact-us-section{
+        height: auto;
+    }
+}
+
+@media (max-width: 530px){
+    .contact-txt{
+        padding-left: 2rem;
+    }
+
+    .form-sect-1, .form-sect-2{
+        width: 45%;
+    }
+}
+
+@media (max-width: 450px){
+    .contact-us-section{
+        padding-top: 5rem;
+    }
+}
+
+/* contact bottom section */
+@media (max-width: 1460px){
+    .contact-arrow{
+        right: 6rem;
+    }
+
+    .contact-bottom-txt p{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1380px){
+    .contact-arrow{
+        right: 6.6rem;
+    }
+
+    .contact-bottom-txt p{
+        font-size: 22px;
+    }
+
+    .rotate-img {
+        width: 250px;
+    }
+
+    .contact-arrow{
+        width: 80px;
+    }
+}
+
+@media (max-width: 1315px){
+    .contact-arrow{
+        width: 60px;
+    }
+}
+
+@media (max-width: 1280px){
+    .contact-bottom-txt p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1260px){
+    .contact-arrow{
+        width: 50px;
+    }
+}
+
+@media (max-width: 1230px){
+    .contact-arrow{
+        right: 6rem;
+    }
+}
+
+@media (max-width: 1200px){
+    .contact-arrow{
+        right: 5rem;
+    }
+}
+
+@media (max-width: 1145px){
+    .contact-arrow{
+        right: 4rem;
+    }
+}
+
+@media (max-width: 1099px){
+    .contact-arrow{
+        bottom: 8rem;
+        right: 3rem;
+    }
+}
+
+@media (max-width: 1070px){
+    .contact-bottom-inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-bottom-txt{
+        width: 100%;
+    }
+
+    .contact-arrow{
+        bottom: 6rem;
+    }
+}
+
+@media (max-width: 1010px){
+    .contact-arrow{
+        right: 2rem;
+    }
+}
+
+@media (max-width: 935px){
+    .contact-arrow{
+        right: 1.5rem;
+    }
+}
+
+@media (max-width: 890px){
+    .rotate-img {
+        width: 200px;
+    }
+
+    .contact-arrow{
+        width: 40px;
+    }
+
+    .contact-arrow{
+        right: 2.5rem;
+        bottom: 5rem;
+    }
+}
+
+@media (max-width: 830px){
+    .contact-arrow{
+        right: 2rem;
+    }
+}
+
+@media (max-width: 767px){
+    .contact-bottom-img{
+        margin-top: 10px;    
+    }
+
+    .contact-arrow{
+        left: 5rem;
+    }
+}
+
+@media (max-width: 542px){
+    .contact-bottom-inner{
+        padding: 1rem 1rem;
+    }
+}
+
+@media (max-width: 456px){
+    .contact-bottom-txt p{
+        font-size: 16px;
+    }
+
+    .rotate-img {
+        width: 180px;
+    }
+
+    .contact-arrow{
+        bottom: 4rem;
+    }
+}
+
+@media (max-width: 410px){
+    .contact-bottom-inner{
+        width: 80%;
+    }
+
+    .contact-bottom-inner{
+        padding: 2rem 1rem;
+    }
+}
+
+/* footer bottom */
+.footer-bottom img{
+    width: 280px;
 }
