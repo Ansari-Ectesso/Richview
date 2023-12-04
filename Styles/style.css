@@ -211,12 +211,12 @@ header{
 /* strategy section */
 #strategy{
     background-image: url('../Images/strategy_bg.png');
-    /* background-color: aqua ; */
+    overflow-x: hidden;
     margin-top: 25rem;
-    height: 70vh;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
+    padding-bottom: 40px;
 }
 
 .strategy-img-container{
@@ -245,7 +245,6 @@ header{
 }
 
 /* investment section */
-
 #investment{
     padding: 8rem 0;
 }
@@ -297,7 +296,7 @@ header{
     width: 450px;
 }
 
-.strategy-bg-txt{
+.investment-bg-txt{
     font-size: 132px;
     font-family: 'Univia Pro';
     color: #f3f4f5;

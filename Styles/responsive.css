@@ -615,3 +615,133 @@
         padding-left: 0;
     }
 }
+
+/* strategy section */
+@media (max-width: 1450px){
+    .strategy-img-container{
+        padding-left: 14rem;
+    }
+
+    .strategy-txt-container{
+        padding-right: 10rem;
+    }
+}
+
+@media (max-width: 1310px){
+    .strategy-img-container{
+        padding-left: 10rem;
+    }
+
+    .strategy-txt-container{
+        padding-right: 8rem;
+    }
+}
+
+@media (max-width: 1200px){
+    .strategy-img-container{
+        padding-left: 8rem;
+    }
+
+    .strategy-txt-container{
+        padding-right: 6rem;
+    }
+}
+
+@media (max-width: 1110px){
+    .strategy-img-container img{
+        width: 380px;
+    }
+}
+
+@media (max-width: 1050px){
+    .strategy-txt-container{
+        padding-right: 4rem;
+    }
+}
+
+@media (max-width: 1000px){
+    .strategy-img-container{
+        padding-left: 6rem;
+    }
+}
+
+@media (max-width: 991px){
+    #strategy{
+        margin-top: 35rem;
+    }
+}
+
+@media (max-width: 950px){
+    .strategy-img-container{
+        padding-left: 3rem;
+    }
+}
+
+@media (max-width: 824px){
+    .strategy-img-container img{
+        width: 330px;
+    }
+
+    .strategy-txt-container p{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 767px){
+    .strategy-img-container img{
+        width: 450px;
+    }
+
+    .strategy-txt-container{
+        padding-left: 3rem;
+    }
+}
+
+@media (max-width: 740px){
+    #strategy{
+        margin-top: 110rem;
+    }
+}
+
+@media (max-width: 500px){
+    .strategy-img-container img{
+        width: 380px;
+    }
+}
+
+@media (max-width: 430px){
+    .strategy-img-container img{
+        width: 330px;
+    }
+}
+
+/* investment section */
+@media (max-width: 1400px){
+    .investment-txt{
+        padding-left: 10rem;
+    }
+
+    .investment-img{
+        padding-left: 5rem;
+    }
+}
+
+@media (max-width: 1260px){
+    .investment-txt{
+        padding-left: 6rem;
+    }
+}
+
+@media (max-width: 1120px){
+    .investment-txt{
+        padding-left: 3rem;
+    }
+
+    .investment-img{
+        padding-left: 3rem;
+    }
+}
+
+@media (max-width: 991px){
+    
+}
