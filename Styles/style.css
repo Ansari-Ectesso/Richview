@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 /* header */
@@ -154,7 +154,6 @@ header{
 }
 
 /* focus section */
-
 .focus-content{
     position: absolute;
     top: 8rem;
@@ -212,10 +211,12 @@ header{
 /* strategy section */
 #strategy{
     background-image: url('../Images/strategy_bg.png');
+    /* background-color: aqua ; */
     margin-top: 25rem;
     height: 70vh;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    width: 100%;
 }
 
 .strategy-img-container{
