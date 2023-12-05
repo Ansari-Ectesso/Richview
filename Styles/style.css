@@ -1,5 +1,5 @@
 /* google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
 
 *{
     margin: 0;
@@ -186,6 +186,7 @@ header{
 .img-container {
     position: relative;
     display: inline-block;
+    
 }
 
 .img-text {
@@ -193,18 +194,18 @@ header{
     top: 12rem;
     left: 10px;
     color: white;
+    width: 90%;
+    padding: 0 13px;
 }
 
 .focus-img-txt-head{
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
-    padding-left: 8px;
 }
 
 .focus-img-txt-content{
     font-weight: 300;
     font-size: 13px;
-    padding: 0 8px;
     font-weight: 200;
 }
 
@@ -326,8 +327,12 @@ header{
     padding-left: 10rem;
 }
 
+.contact-form-inner{
+    padding: 0 80px;
+}
+
 .form-sect-1, .form-sect-2{
-    width: 35%;
+    width: 45%;
 }
 
 .form-sect-1 input{

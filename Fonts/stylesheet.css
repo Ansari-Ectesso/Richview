@@ -9,6 +9,15 @@
 
 @font-face {
     font-family: 'Univia Pro';
+    src: url('UniviaPro-Light.woff2') format('woff2'),
+        url('UniviaPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univia Pro';
     src: url('UniviaPro-Regular.woff2') format('woff2'),
         url('UniviaPro-Regular.woff') format('woff');
     font-weight: normal;
@@ -21,6 +30,15 @@
     src: url('UniviaPro-Bold.woff2') format('woff2'),
         url('UniviaPro-Bold.woff') format('woff');
     font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univia Pro Ultra';
+    src: url('UniviaPro-Ultra.woff2') format('woff2'),
+        url('UniviaPro-Ultra.woff') format('woff');
+    font-weight: 900;
     font-style: normal;
     font-display: swap;
 }

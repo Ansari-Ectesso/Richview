@@ -59,6 +59,10 @@
         width: 18px;
     }
 
+    .top-container h1{
+        line-height: 50px !important;
+    }
+
     .nav_contact_btn{
         width: 100px !important;
         font-size: 13px;
@@ -72,6 +76,10 @@
 }
 
 @media (max-width: 530px){
+
+    header{
+        height: 75vh;
+    }
 
     .logo-section{
         align-items: start;
@@ -88,6 +96,12 @@
     }
 }
 
+@media (max-width: 500px){
+    .top-container h1{
+        line-height: 40px !important;
+    }
+}
+
 @media (max-width: 475px){
     .nav_contact p{
         font-size: 16px;
@@ -95,6 +109,18 @@
 
     .nav_contact_btn{
         width: 120px !important;
+    }
+}
+
+@media (max-width: 377px){
+    header{
+        height: 100vh;
+    }
+}
+
+@media (max-width: 360px){
+    header{
+        height: 90vh;
     }
 }
 
@@ -493,7 +519,7 @@
 
 @media (max-width: 1160px){
     .focus-img-container img{
-        width: 200px;
+        width: 210px;
     }
 
     .focus-img-txt-content{
@@ -502,6 +528,10 @@
 
     .img-text {
         top: 10rem;
+    }
+
+    .focus-img-txt-head{
+        font-size: 11px;
     }
 
     .focus-content{
@@ -583,6 +613,10 @@
         font-size: 16px;
         width: 280px;
     }
+
+    .focus-img-txt-head{
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 664px){
@@ -619,6 +653,10 @@
 
     .focus-img-container{
         padding-left: 0;
+    }
+
+    .focus-img-txt-content{
+        width: 95%;
     }
 }
 
@@ -752,6 +790,7 @@
     .investment-img{
         display: flex;
         justify-content: center;
+        padding-top: 20px;
     }
 }
 
@@ -821,9 +860,18 @@
 /* footer section */
 
 /* contact us section */
+
 @media (max-width: 1172px){
     .contact-txt{
         padding-left: 8rem;
+    }
+
+    .contact-form-inner{
+        padding: 0 50px;
+    }
+
+    .form-sect-1, .form-sect-2{
+        width: 45%;
     }
 }
 
@@ -836,8 +884,53 @@
 @media (max-width: 1080px){
     .contact-us-section{
         height: auto;
+        padding-bottom: 50px;
     }
 }
+
+@media (max-width: 991px){
+    .contact-us-section{
+        padding: 80px 60px;
+    }
+}
+
+@media (max-width: 750px){
+    .contact-us-section{
+        padding: 80px 40px;
+    }
+}
+
+@media (max-width: 680px){
+    .contact-us-section{
+        padding: 80px 25px;
+    }
+}
+
+@media (max-width: 650px){
+    .contact-us-section{
+        padding: 60px 60px !important;
+    }
+
+    .contact-txt{
+        padding-left: 0;
+    }
+
+    .contact-form{
+        padding-left: 0;
+    }
+
+    .contact-form-inner{
+        padding-left: 0;
+        padding-right: 0;
+        justify-content: space-between !important;
+    }
+
+    .form-sect-1, .form-sect-2{
+        width: 45%;
+    }
+}
+
+/* fixed till this */
 
 @media (max-width: 530px){
     .contact-txt{
