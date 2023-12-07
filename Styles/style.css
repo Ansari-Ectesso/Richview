@@ -114,12 +114,16 @@ header{
     margin-top: -30px;
 }
 
-.curved-txt{
-    width: 280px;
+.curved-container {
     position: absolute;
     top: 20%;
     right: -10.1%;
+    overflow: hidden;
 }
+.curved-txt {
+    width: 280px;
+}
+
 
 #about_bottom{
     background-image: url('../Images/about_bottom_bg.png');
@@ -375,42 +379,23 @@ header{
     }
 
 /* contact bottom section */
-
-.contact-bottom{
-    background-image: url('../Images/contact-bottom-section.png');
-    height: 80vh;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .contact-bottom-inner{
-    background-color: #07223e;
-    width: 70%;
-    height: auto;
-    padding: 4rem 3rem;
+    background-image: url('../Images/contact-bottom-section.png');
+    padding: 6rem 14rem;
 }
 
-.contact-bottom-txt p{
+.contact-bottom-box{
+    background-color: #07223E;
     color: #fff;
-    font-size: 26px;
+    padding: 5rem 5rem;
 }
 
-.contact-bottom-txt button{
-    padding: 8px;
-    background-color: #07223e;
-    color: #fff;
-    border: solid #fff 1px;
+.curved-txt-bottom {
+    width: 250px;
+    animation: rotate 13s infinite linear;
 }
 
-.rotate-img {
-    width: 280px;
-    animation: rotateAnimation 15s linear infinite;
-}
-
-@keyframes rotateAnimation {
+@keyframes rotate {
     from {
         transform: rotate(0deg);
     }
@@ -419,11 +404,35 @@ header{
     }
 }
 
-.contact-arrow{
-    position: absolute;
-    bottom: 6.5rem;
-    right: 7.5rem;
+.bottom-box-txt-section{
+    width: 60%;
 }
+
+.bottom-box-txt-section p{
+    font-size: 22px;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.up-arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+}
+
+.contact-bottom-box button{
+    width: 160px;
+    height: 50px;
+    color: #fff;
+    background-color: transparent;
+    border: solid #fff 1px;
+}
+
+
 
 /* footer bottom */
 .footer-bottom{

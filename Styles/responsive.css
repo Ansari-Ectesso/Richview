@@ -930,15 +930,16 @@
     }
 }
 
-/* fixed till this */
 
 @media (max-width: 530px){
-    .contact-txt{
-        padding-left: 2rem;
-    }
-
     .form-sect-1, .form-sect-2{
-        width: 45%;
+        width: 47%;
+    }
+}
+
+@media (max-width: 520px){
+    .contact-txt p{
+        font-size: 14px;
     }
 }
 
@@ -946,166 +947,63 @@
     .contact-us-section{
         padding-top: 5rem;
     }
+
+    .form-sect-1 input, .form-sect-2 input{
+        height: 45px;
+    }
+
+    .form-sect-1 input[type="text"]::placeholder,
+    .form-sect-2 input[type="text"]::placeholder,
+    .form-sect-2 textarea::placeholder {
+        font-size: 14px;
+    }
+
+    .form-sect-2 textarea{
+        height: 135px;
+    }
+}
+
+@media (max-width: 430px){
+    .contact-us-parent{
+        width: 110%;
+    }
+}
+
+@media (max-width: 400px){
+    .contact-txt p{
+        font-size: 12px;
+    }
+    .form-sect-1 input, .form-sect-2 input{
+        height: 35px;
+    }
+
+    .form-sect-2 textarea{
+        height: 125px;
+    }
+
+    .form-sect-1 input[type="text"]::placeholder,
+    .form-sect-2 input[type="text"]::placeholder,
+    .form-sect-2 textarea::placeholder {
+        font-size: 13px;
+    }
 }
 
 /* contact bottom section */
-@media (max-width: 1460px){
-    .contact-arrow{
-        right: 6rem;
-    }
-
-    .contact-bottom-txt p{
-        font-size: 24px;
+@media (max-width: 1400px){
+    .contact-bottom-inner{
+        padding: 6rem 10rem;
     }
 }
 
-@media (max-width: 1380px){
-    .contact-arrow{
-        right: 6.6rem;
+/* --------------- */
+@media (max-width: 1270px){
+    .contact-bottom-box{
+        
+        padding: 5rem 5rem;
     }
 
-    .contact-bottom-txt p{
-        font-size: 22px;
-    }
-
-    .rotate-img {
-        width: 250px;
-    }
-
-    .contact-arrow{
-        width: 80px;
-    }
-}
-
-@media (max-width: 1315px){
-    .contact-arrow{
-        width: 60px;
-    }
-}
-
-@media (max-width: 1280px){
-    .contact-bottom-txt p{
+    .bottom-box-txt-section p{
         font-size: 20px;
-    }
-}
-
-@media (max-width: 1260px){
-    .contact-arrow{
-        width: 50px;
-    }
-}
-
-@media (max-width: 1230px){
-    .contact-arrow{
-        right: 6rem;
-    }
-}
-
-@media (max-width: 1200px){
-    .contact-arrow{
-        right: 5rem;
-    }
-}
-
-@media (max-width: 1145px){
-    .contact-arrow{
-        right: 4rem;
-    }
-}
-
-@media (max-width: 1099px){
-    .contact-arrow{
-        bottom: 8rem;
-        right: 3rem;
-    }
-}
-
-@media (max-width: 1070px){
-    .contact-bottom-inner{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .contact-bottom-txt{
-        width: 100%;
-    }
-
-    .contact-arrow{
-        bottom: 6rem;
-    }
-}
-
-@media (max-width: 1010px){
-    .contact-arrow{
-        right: 2rem;
-    }
-}
-
-@media (max-width: 935px){
-    .contact-arrow{
-        right: 1.5rem;
-    }
-}
-
-@media (max-width: 890px){
-    .rotate-img {
-        width: 200px;
-    }
-
-    .contact-arrow{
-        width: 40px;
-    }
-
-    .contact-arrow{
-        right: 2.5rem;
-        bottom: 5rem;
-    }
-}
-
-@media (max-width: 830px){
-    .contact-arrow{
-        right: 2rem;
-    }
-}
-
-@media (max-width: 767px){
-    .contact-bottom-img{
-        margin-top: 10px;    
-    }
-
-    .contact-arrow{
-        left: 5rem;
-    }
-}
-
-@media (max-width: 542px){
-    .contact-bottom-inner{
-        padding: 1rem 1rem;
-    }
-}
-
-@media (max-width: 456px){
-    .contact-bottom-txt p{
-        font-size: 16px;
-    }
-
-    .rotate-img {
-        width: 180px;
-    }
-
-    .contact-arrow{
-        bottom: 4rem;
-    }
-}
-
-@media (max-width: 410px){
-    .contact-bottom-inner{
-        width: 80%;
-    }
-
-    .contact-bottom-inner{
-        padding: 2rem 1rem;
     }
 }
 
