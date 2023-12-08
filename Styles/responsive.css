@@ -2,6 +2,29 @@
 
 /* header */
 
+@media (min-width: 1680px){
+    .about-img img{
+        width: 600px;
+    }
+}
+
+@media (min-width: 1550px){
+    .curved-container{
+        display: none;
+    }
+
+    .curved-txt-container-big-screens{
+        display: block !important;
+        position: absolute;
+        right: 0;
+        top: 10rem;
+    }
+
+    .curved-txt-container-big-screens img{
+        width: 150px !important;
+    }
+}
+
 @media (max-width: 1280px){
     .logo-section img{
         width: 250px;
