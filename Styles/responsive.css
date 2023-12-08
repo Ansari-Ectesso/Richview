@@ -998,12 +998,123 @@
 /* --------------- */
 @media (max-width: 1270px){
     .contact-bottom-box{
-        
         padding: 5rem 5rem;
     }
 
     .bottom-box-txt-section p{
         font-size: 20px;
+    }
+}
+
+@media (max-width: 1200px){
+    .bottom-box-txt-section p{
+        font-size: 18px;
+    }
+
+    .curved-txt-bottom {
+        width: 220px;
+    }
+
+    .up-arrow {
+        width: 80px;
+    }
+}
+
+@media (max-width: 1120px){
+    .contact-bottom-inner{
+        padding: 6rem 8rem;
+    }
+}
+
+@media (max-width: 1060px){
+    .contact-bottom-box{
+        padding: 4rem;
+    }
+}
+
+@media (max-width: 1030px){
+    .contact-bottom-box{
+        padding: 50px;
+    }
+}
+
+@media (max-width: 1000px){
+    .contact-bottom-inner{
+        padding: 6rem 6rem;
+    }
+}
+
+@media (max-width: 936px){
+    .contact-bottom-box{
+        padding: 3rem 3rem;
+    }
+}
+
+@media (max-width: 933px){
+    .bottom-box-txt-section p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 870px){
+    .contact-bottom-inner{
+        background-size: 100% 100%;
+    }
+
+    .contact-bottom-box{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 3rem 0;
+    }
+
+    .bottom-box-txt-section{
+        width: 100%;
+        padding: 0 1.5rem;
+    }
+}
+
+@media (max-width: 770px){
+    .contact-bottom-inner{
+        padding: 4rem 4rem;
+    }
+}
+
+@media (max-width: 620px){
+    .bottom-box-img-section{
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 460px){
+    .bottom-box-txt-section p{
+        font-size: 15px;
+    }
+
+    .curved-txt-bottom{
+        width: 200px;
+    }
+
+    .up-arrow{
+        width: 60px;
+    }
+}
+
+@media (max-width: 410px){
+    .bottom-box-txt-section p{
+        font-size: 12px;
+    }
+
+    .contact-bottom-box button{
+        width: 120px;
+        height: 45px;
+    }
+
+}
+
+@media (max-width: 390px){
+    .contact-bottom-inner{
+        padding: 4rem 2rem;
     }
 }
 

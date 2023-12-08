@@ -382,6 +382,7 @@ header{
 .contact-bottom-inner{
     background-image: url('../Images/contact-bottom-section.png');
     padding: 6rem 14rem;
+    background-repeat: no-repeat;
 }
 
 .contact-bottom-box{
