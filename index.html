@@ -179,18 +179,18 @@
                     active returns.</p>
 
                 <div class="investment-box-container">
-                    <div class="investment-dark-box">
-                        <p class="invest-box-dark-title">Turn-key Family asset acquisition</p>
-                        <p class="invest-box-dark-sub">We carefully select and acquire approved land parcels, partnering
+                    <div class="investment-box investment-dark-box" onclick="selectBox(this)">
+                        <p class="invest-box-title invest-box-dark-title ">Turn-key Family asset acquisition</p>
+                        <p class="invest-box-sub invest-box-dark-sub">We carefully select and acquire approved land parcels, partnering
                             with top-tier construction teams to build multifamily assets that generate superior returns
                             and sustainable cash flow for our partners and their families</p>
                     </div>
-                    <div class="investment-box">
+                    <div class="investment-box" onclick="selectBox(this)">
                         <p class="invest-box-title">Joint Venture and Co-Ownership</p>
                         <p class="invest-box-sub">This program allows us to combine landowners with qualified investors
                             to jointly own an asset with shared participation.</p>
                     </div>
-                    <div class="investment-box">
+                    <div class="investment-box" onclick="selectBox(this)">
                         <p class="invest-box-title">Limited partnership opportunities</p>
                         <p class="invest-box-sub">For those interested in a more passive investment approach, We secure
                             stakes In various Land entitlement projects with experienced development managers on shorter
@@ -199,7 +199,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 investment-img">
-                <img src="Images/investment-img.png" alt="">
+                <img class="invest-workers-pic" src="Images/investment-img.png" alt="">
             </div>
         </div>
         <p class="investment-bg-txt">Investment Opportunities</p>
@@ -261,6 +261,28 @@
                 Reserved.</span>
         </div>
     </footer>
+
+    <a href="tel:+123456789" class="call-button d-none">
+        <img src="Images/header_phone.png" alt="Phone Icon" class="call-button-icon">
+        Call Us
+    </a>
+
+    <script>
+        function selectBox(selectedElement) {
+            const allBoxes = document.querySelectorAll('.investment-box');
+            allBoxes.forEach(box => {
+                if (box === selectedElement) {
+                    box.classList.add('investment-dark-box');
+                    box.querySelector('.invest-box-title').classList.add('invest-box-dark-title');
+                    box.querySelector('.invest-box-sub').classList.add('invest-box-dark-sub');
+                } else {
+                    box.classList.remove('investment-dark-box');
+                    box.querySelector('.invest-box-title').classList.remove('invest-box-dark-title');
+                    box.querySelector('.invest-box-sub').classList.remove('invest-box-dark-sub');
+                }
+            });
+        }
+    </script>
 </body>
 
 </html>

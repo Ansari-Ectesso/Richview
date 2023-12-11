@@ -43,14 +43,20 @@ header{
     font-size: 25px;
 }
  
-.nav_contact button{
+.nav_contact button {
     width: 150px;
     height: 40px;
     background-color: transparent;
     color: #fff;
     border: solid #fff 1px;
     background: rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s;
 }
+
+.nav_contact button:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
 
 /* top container */
 .top-container{
@@ -69,12 +75,18 @@ header{
     width: 32%;
 }
 
-.top-container button{
+.top-container button {
     padding: 8px;
     background-color: #07223e;
     color: #fff;
     border: solid #fff 1px;
+    transition: box-shadow 0.3s;
 }
+
+.top-container button:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
 
 /* about section */
 #about{
@@ -102,12 +114,20 @@ header{
     width: 450px;
 }
 
-.about-txt button, .strategy-txt-container button{
+.about-txt button,
+.strategy-txt-container button {
     padding: 8px;
     background-color: #07223e;
     color: #fff;
     border: solid #fff 1px;
+    transition: box-shadow 0.3s;
 }
+
+.about-txt button:hover,
+.strategy-txt-container button:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
 
 .about-img img{
     width: 550px;
@@ -124,7 +144,6 @@ header{
 .curved-txt {
     width: 280px;
 }
-
 
 #about_bottom{
     background-image: url('../Images/about_bottom_bg.png');
@@ -258,43 +277,44 @@ header{
     padding-left: 15rem;
 }
 
-.investment-dark-box{
+
+.investment-box {
+    background-color: #fafafb;
+    padding: 14px;
+    border-left: #83919f solid 3px;
+    border-bottom: #edeff1 solid 1px;
+}
+
+.invest-box-title {
+    font-weight: bold;
+    color: #07223e;
+}
+
+.invest-box-sub {
+    color: #07223e;
+}
+
+.invest-box-sub {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.investment-dark-box {
     background-color: #07223e;
     color: #fff;
     padding: 14px;
 }
 
-.invest-box-dark-title{
+.invest-box-dark-title {
     font-weight: 500;
+    color: #fff;
 }
 
-.investment-box{
-    background-color: #fafafb;
-    padding: 14px;
-}
-
-.invest-box-title{
-    font-weight: bold;
-    color: #07223e;
-}
-
-.invest-box-sub{
-    color: #07223e;
-}
-
-.invest-box-dark-sub{
+.invest-box-dark-sub {
     font-size: 14px;
     font-weight: 200;
-}
-
-.invest-box-sub{
-    font-size: 14px;
-    font-weight: 400;
-}
-
-.investment-box{
-    border-left: #83919f solid 3px;
-    border-bottom: #edeff1 solid 1px;
+    color: #fff;
 }
 
 .investment-img img{
@@ -309,6 +329,8 @@ header{
     bottom: 4rem;
     z-index: -1;
 }
+
+
 
 /* footer section */
 
@@ -343,13 +365,19 @@ header{
     width: 100%;
 }
 
-.form-sect-1 button{
+.form-sect-1 button {
     width: 100%;
     height: 40px;
     color: #fff;
     background-color: transparent;
     border: solid #fff 1px;
+    transition: box-shadow 0.3s;
 }
+
+.form-sect-1 button:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
 
 .form-sect-2 input, .form-sect-2 textarea{
     width: 100%;
@@ -367,6 +395,12 @@ header{
     border: none;
     padding-left: 15px;
     padding-top: 8px;
+}
+
+.form-sect-1 input,
+.form-sect-2 input,
+.form-sect-2 textarea {
+    color: #fff;
 }
 
 /* placeholer */
@@ -425,13 +459,21 @@ header{
     width: 100px;
 }
 
-.contact-bottom-box button{
+.contact-bottom-box button {
     width: 160px;
     height: 50px;
     color: #fff;
     background-color: transparent;
     border: solid #fff 1px;
+    transition: box-shadow 0.3s;
 }
+
+.contact-bottom-box button:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+
+
 
 
 
@@ -447,4 +489,23 @@ header{
 .footer-bottom-txt{
     font-size: 14px;
     font-weight: 200;
+}
+
+/* Fixed Call Button */
+.call-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #07223e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.call-button-icon {
+    margin-right: 5px;
 }

@@ -549,6 +549,10 @@
     .nav_contact_btn{
         width: 150px !important;
     }
+
+    .contact_no{
+        display: none;
+    }
 }
 
 @media (max-width: 500px){
@@ -569,7 +573,7 @@
 
 @media (max-width: 377px){
     header{
-        height: 100vh;
+        height: 70vh;
     }
 }
 
@@ -684,6 +688,10 @@
 @media (max-width: 530px){
     .top-container{
         padding-top: 3rem;
+    }
+
+    .call-button{
+        display: flex !important;
     }
 }
 
