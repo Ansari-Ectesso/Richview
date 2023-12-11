@@ -2,7 +2,229 @@
 
 /* larger screens */
 @media (min-width: 2560px){
+    .logo-section img{
+        width: 500px !important;
+    }
+
+    .nav_contact p{
+        color: #fff;
+        font-size: 45px !important;
+    }
+
+    .nav_contact{
+        width: 800px !important;
+    }
+
+    .head_phone_icon{
+        width: 45px;
+    }
+
+    .nav_contact button{
+        width: 220px !important;
+        height: 70px !important;
+        font-size: 28px !important;
+    }
+
+    .top-container h1{
+        font-size: 110px !important;
+        line-height: 160px !important;
+        width: 70% !important;
+    }
+
+    .top-container{
+        padding-top: 20rem;
+        padding-left: 15rem;
+    }
+
+    .top-container p{
+        font-size: 50px !important;
+        width: 40%;
+    }
+
+    .top-container button{
+        margin-top: 20px;
+        width: 300px !important;
+        height: 80px !important;
+        font-size: 28px !important;
+    }
+
+    #about{
+        width: 2560px !important;
+    }
+
+    .about-content{
+        margin-left: 0 !important;
+        min-width: 100% !important;
+    }
+
+    .abt-txt-head{
+        font-size: 80px !important;
+    }
+
+    .about-txt{
+        width: 800px;
+    }
+
+    .abt-txt-p{
+        font-size: 35px !important;
+        font-weight: 300;
+        width: 1000px !important;
+    }
+
+    .about-img{
+        margin-left: 250px !important;
+    }
+
+    .about-img img{
+        min-width: 85% !important;
+        margin-left: 100px !important;
+        margin-top: 0;
+    }
+
+    .about-txt button{
+        width: 300px !important;
+        height: 80px !important;
+        font-size: 28px !important;
+    }
+
+    .about_workers{
+        width: 1200px !important;
+    }
+
+    .about-vector-section{
+        padding-right: 80px;
+    }
+
+    .vector-txt{
+        font-size: 130px !important;
+    }
+
+    .curved-txt-container-big-screens {
+        top: 25rem !important;
+    }
+
+    .focus-content{
+        left: 5rem;
+        min-width: 95% !important;
+    }
+
+    .focus-txt-container{
+        width: 35%;
+    }
+
+    .focus-title{
+        font-size: 65px !important;
+    }
+
+    .focus-txt-p{
+        font-size: 28px !important;
+        width: 100% !important;
+    }
+
+    .focus-img-container{
+        width: 65%;
+    }
+
+    .focus-img-container img{
+        width: 450px !important;
+    }
+
+    .focus-img-txt-head{
+        font-size: 26px !important;
+    }
     
+    .focus-img-txt-content{
+        font-size: 20px !important;
+    }
+
+    .img-text{
+        top: 26rem !important;
+    }
+
+    .strategy-img-container img{
+        width: 800px !important;
+    }
+
+    .strategy-txt-container h2{
+        font-size: 80px !important;
+    }
+
+    .strategy-txt-container p{
+        font-size: 26px !important;
+    }
+
+    .strategy-txt-container button{
+        width: 200px;
+        height: 60px;
+        font-size: 24px;
+    }
+
+    .investment-txt h2{
+        font-size: 75px !important;
+    }
+
+    .invest-sub-head{
+        font-size: 26px !important;
+    }
+
+    .investment-img img{
+        width: 850px !important;
+    }
+
+    .investment-box-container{
+        margin-top: 50px !important;
+    }
+
+    .investment-box{
+        background-color: #fafafb;
+        padding: 30px;
+    }
+
+    .invest-box-dark-title, .invest-box-title{
+        font-size: 32px !important;
+    }
+
+    .invest-box-dark-sub, .invest-box-sub{
+        font-size: 24px !important;
+    }
+
+    .contact-us-section{
+        padding-top: 10rem !important;
+    }
+
+    .contact-txt p{
+        font-size: 28px !important;
+    }
+
+    .contact-bottom-inner{
+        padding: 6rem 8rem !important;
+    }
+
+    .bottom-box-txt-section p{
+        font-size: 50px !important;
+    }
+
+    .curved-txt-bottom{
+        width: 500px !important;
+    }
+
+    .up-arrow{
+        width: 150px;
+    }
+
+    .bottom-box-txt-section button{
+        width: 300px !important;
+        height: 80px !important;
+        font-size: 28px !important;
+    }
+
+    .footer-bottom img{
+        width: 550px !important;
+    }
+    
+    .footer-bottom-txt{
+        font-size: 22px;
+    }
 }
 
 @media (min-width: 2048px){
