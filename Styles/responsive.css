@@ -1,6 +1,215 @@
 /* media queries */
 
-/* header */
+/* larger screens */
+@media (min-width: 2560px){
+    
+}
+
+@media (min-width: 2048px){
+    .contact-us-section{
+        height: 45vh !important;
+    }
+}
+
+@media (min-width: 1920px){
+    .logo-section img{
+        width: 380px;
+    }
+
+    .nav_contact p{
+        color: #fff;
+        font-size: 35px;
+    }
+
+    .nav_contact{
+        width: 600px;
+    }
+
+    .nav_contact button{
+        width: 200px;
+        height: 60px;
+        font-size: 24px;
+    }
+
+    .top-container h1{
+        width: 65%;
+        font-size: 80px;
+        line-height: 130px;
+    }
+
+    .top-container p{
+        font-size: 40px;
+        width: 40%;
+    }
+
+    .top-container button{
+        margin-top: 20px;
+        width: 250px;
+        height: 60px;
+        font-size: 24px;
+    }
+
+    .about-content{
+        margin-left: 6rem;
+    }
+
+    .abt-txt-head{
+        font-size: 60px !important;
+    }
+
+    .about-txt p{
+        font-size: 25px;
+        font-weight: 300;
+        width: 700px;
+    }
+
+    .about-img img{
+        width: 40rem !important;
+        margin-left: 200px;
+        margin-top: 0;
+    }
+
+    .about-txt button{
+        width: 200px;
+        height: 60px;
+        font-size: 24px;
+    }
+
+    .about_workers{
+        width: 850px;
+    }
+
+    .about-vector-section{
+        padding-right: 80px;
+    }
+
+    .vector-txt{
+        font-size: 100px;
+    }
+
+    #focus_section{
+        padding: 5rem 0 !important;
+    }
+
+    .focus-content{
+        min-width: 1800px;
+        top: 4rem;
+    }
+
+    .focus-title{
+        font-size: 50px;
+    }
+
+    .focus-txt-p{
+        font-size: 22px;
+        width: 500px;
+    }
+
+    .focus-img-container img{
+        width: 350px;
+    }
+
+    .focus-img-txt-head{
+        font-size: 20px;
+    }
+    
+    .focus-img-txt-content{
+        font-size: 16px;
+    }
+
+    .img-text{
+        top: 18rem;
+    }
+
+    .strategy-img-container img{
+        width: 600px;
+    }
+
+    .strategy-txt-container h2{
+        font-size: 60px;
+    }
+
+    .strategy-txt-container p{
+        font-size: 20px;
+    }
+
+    .strategy-txt-container button{
+        width: 200px;
+        height: 60px;
+        font-size: 24px;
+    }
+
+    .investment-txt h2{
+        font-size: 55px;
+    }
+
+    .investment-txt p{
+        font-size: 18px;
+    }
+
+    .investment-img img{
+        width: 650px;
+    }
+
+    .invest-box-dark-title, .invest-box-title{
+        font-size: 22px;
+    }
+
+    .invest-box-dark-sub, .invest-box-sub{
+        font-size: 18px;
+    }
+
+    .contact-us-section{
+        height: 60vh;
+        background-repeat: no-repeat;
+        padding-top: 8rem;
+    }
+
+    .contact-txt h2{
+        font-size: 55px;
+    }
+
+    .contact-txt p{
+        font-size: 22px;
+    }
+
+    .contact-bottom-inner{
+        padding: 3rem 14rem;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .form-sect-1{
+        position: relative;
+    }
+
+    .form-sect-1 button{
+        font-size: 24px;
+        height: 55px;
+    }
+
+    .form-sect-2 textarea{
+        height: 165px !important;
+    }
+
+    .bottom-box-txt-section{
+        width: 65%;
+    }
+    
+    .bottom-box-txt-section p{
+        font-size: 34px;
+    }
+
+    .bottom-box-txt-section button{
+        width: 200px;
+        height: 60px;
+        font-size: 24px;
+    }
+
+    .curved-txt-bottom{
+        width: 350px;
+    }
+}
 
 @media (min-width: 1680px){
     .about-img img{
@@ -25,6 +234,7 @@
     }
 }
 
+/* header */
 @media (max-width: 1280px){
     .logo-section img{
         width: 250px;

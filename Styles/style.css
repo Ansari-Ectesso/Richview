@@ -191,7 +191,6 @@ header{
 .img-container {
     position: relative;
     display: inline-block;
-    
 }
 
 .img-text {
@@ -262,7 +261,7 @@ header{
 .investment-dark-box{
     background-color: #07223e;
     color: #fff;
-    padding: 8px;
+    padding: 14px;
 }
 
 .invest-box-dark-title{
@@ -271,7 +270,7 @@ header{
 
 .investment-box{
     background-color: #fafafb;
-    padding: 8px;
+    padding: 14px;
 }
 
 .invest-box-title{
