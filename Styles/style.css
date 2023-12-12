@@ -13,7 +13,7 @@ body{
 
 /* header */
 header{
-    background-image: url('../Images/top_bg.png');
+    background-image: url('../Images/top_bg.jpg');
     height: 100vh;
     background-size: cover;
 }
@@ -359,6 +359,16 @@ header{
 
 .form-sect-1, .form-sect-2{
     width: 45%;
+}
+
+.form-sect-1{
+    position: relative;
+}
+
+.Submit-btn{
+    position: absolute;
+    bottom: 0.4rem;
+    left: 0;
 }
 
 .form-sect-1 input{
