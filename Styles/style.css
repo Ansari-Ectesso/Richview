@@ -76,7 +76,7 @@ header{
 }
 
 .top-container button {
-    padding: 8px;
+    padding: 8px 20px;
     background-color: #07223e;
     color: #fff;
     border: solid #fff 1px;
@@ -116,7 +116,7 @@ header{
 
 .about-txt button,
 .strategy-txt-container button {
-    padding: 8px;
+    padding: 8px 20px;
     background-color: #07223e;
     color: #fff;
     border: solid #fff 1px;
@@ -330,8 +330,6 @@ header{
     z-index: -1;
 }
 
-
-
 /* footer section */
 
 /* contact us section */
@@ -367,7 +365,7 @@ header{
 
 .Submit-btn{
     position: absolute;
-    bottom: 0.4rem;
+    bottom: 0;
     left: 0;
 }
 
@@ -501,7 +499,7 @@ header{
     font-weight: 200;
 }
 
-/* Fixed Call Button */
+/* Call Button */
 .call-button {
     position: fixed;
     bottom: 20px;
